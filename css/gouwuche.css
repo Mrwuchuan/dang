@@ -1,0 +1,285 @@
+/*head部分开始*/
+#bg{
+	/*overflow: hidden;*/
+	background:#F9F9F9;
+}
+   
+#hd #tools{
+	width: 1240px;
+	height: 34px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #646464;
+}
+#hd #tools .menu_ul{
+	padding: 0px 10px;
+}
+#hd #tools .menu_ul li{
+	position: relative;
+	width: 80px;
+	text-align: center;
+    line-height: 22px;
+    height: 22px;
+    padding: 5px 0px 7px 0px;
+
+}
+#hd #tools .menu_ul>li:nth-of-type(2)~li{	
+	background: url(../img/head_sprite.png) no-repeat 0px -282px;
+}
+
+#hd #tools .menu_ul li .icon{
+	display: inline-block;
+	width: 11px;
+    height: 16px;
+    position: absolute;
+    left: -0px;
+    top: 9px;
+}
+
+#hd #tools .menu_ul li .icon_s{
+	background: url(../img/head_sprite.png) no-repeat -40px -70px;
+}
+#hd #tools .menu_ul>li:hover .icon_s{
+	background: url(../img/head_sprite.png) no-repeat -51px -70px;
+}
+#hd #tools .menu_ul>li .icon_g{
+	background: url(../img/home_sprite2.png) no-repeat -40px -86px;
+	width: 20px;
+}
+#hd #tools .menu_ul>li .icon_w{
+	background: url(../img/head_sprite.png) no-repeat -73px -314px;
+	left: 67px;
+    top: 14px;
+}
+#hd #tools .menu_ul>li:hover .icon_w{
+	background: url(../img/head_sprite.png) no-repeat -73px -330px;
+}
+#hd #tools .menu_ul>li:nth-of-type(3)~li:hover{
+		position: relative;
+		z-index: 1000;
+		background: white;
+		box-shadow: 0px 0px 1px 0px #CCCCCC;
+		
+}
+#hd #tools .menu_ul li:hover>a{
+	color: red;
+}
+#hd .menu_son{
+	display: none;
+	width: 200px;
+	box-shadow: 0px 0px 1px 0px #ccc;
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	background: white;
+}
+#hd .menu_son .menu_son_s{
+	width: 90px;
+	padding: 5px;
+	text-align: center;
+	
+}
+#hd .menu_son .menu_son_s a{
+	display: block;
+	font-size: 12px;
+	line-height: 1.3;
+}
+#hd .menu_son:hover .menu_son_s a{
+	color:black;
+}
+#hd #tools>span{
+	line-height: 34px;
+}
+#hd #tools .menu_t{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	box-shadow: 0px 0px 1px 0px #ccc;
+	border-top: none;
+	background: white;
+}
+/*logo部分开始*/
+
+#logo{
+	width: 1240px;
+	margin: 0 auto;
+}
+#logo>a{
+	display: inline-block;
+	margin-top: 30px;
+}
+#logo .logo_s{
+	width: 634px;
+	height: 36px;
+	font: bold 14px/36px "微软雅黑";
+	color: #646464;
+	margin-top: 30px;
+	background: url(../picture/gouwuche.jpg);
+}
+#logo .logo_s span{
+	display: inline-block;
+	width: 205px;
+	text-align: center;
+	color: #646464;
+}
+#logo .logo_s span:first-child{
+	color: white;
+}
+.address{
+	width: 100%;
+	background: #FAFAFA;
+}
+.address .address_a{
+	width: 1240px;
+	margin: 0 auto;
+}
+.address .address_a .address_a_a{
+	margin: 20px 0px;
+	width: 300px;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px solid rgba(100, 100, 100, 0.26);
+}
+.address .address_a .address_a_a span{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font: 14px/30px "微软雅黑";
+	color: #CDCDCD;
+	border-right: 1px solid #CCCCCC;	
+}
+.deng{
+	width: 1240px;
+	padding: 10px 0px;
+	background: rgba(255, 192, 203, 0.23);
+	margin: 185px auto 0px;
+	clear: both;
+}
+.deng>span{
+	padding-left: 12px;
+}
+.deng>a{
+	display: inline-block;
+	width: 60px;height: 20px;
+	margin-left: 20px;
+	background: red;
+	color: white;
+	font: 14px "微软雅黑";
+	text-align: center;
+	border-radius: 2px;
+}
+.price{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	font: 14px "微软雅黑";
+	color:#969696;
+}
+.price span{
+	display: inline-block;
+	line-height: 20px;
+	text-align: center;
+	width: 155px;
+}
+.price>span:first-of-type{
+	width: 542px;
+}
+.dianpu{
+	width: 1200px;
+	margin: 0 auto;	
+	padding: 20px 0px;
+}
+.dianpu>span{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: red;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.shangpin{
+	width: 1210px;
+	margin: 0 auto;
+	background: rgba(204, 204, 204, 0.24);
+	border: 1px solid #ccc;
+	padding: 15px;
+	font-size: 0px;
+}
+.shangpin>input{
+	height: 65px;
+}
+.shangpin>a{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 0px 20px;
+}
+.shangpin>span{
+display: inline-block;
+color: rgba(31, 9, 9, 0.55);
+font-size: 14px;
+}
+.shangpin>span>input{
+	margin-top: 31px;
+	font-size: 14px;
+}
+.shangpin>span:nth-of-type(2){
+	margin-left: 140px;
+}
+.shangpin button{
+	width: 30px;
+	height: 29px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+}
+.shangpin>span:nth-of-type(3){
+	width: 30px;
+	height: 27px;
+	border: 1px solid #ccc;
+	line-height: 27px;
+	background: white;
+	text-align: center;
+}
+.shangpin button:nth-of-type(1){
+	margin-left: 110px;
+}
+.qian{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+    margin-left: 85px;
+    text-align: center;
+    color: red;
+}
+.shangpin .shanchu{
+	width: 59px;
+    font: 14px/30px "微软雅黑";
+    text-align: center;
+    line-height: 30px;
+    height: 34px;
+    margin-left: 107px;	
+}
+.heji{
+	width: 1240px;
+	margin: 0 auto;
+	background: rgba(204, 204, 204, 0.24);
+	border:1px solid #CCCCCC;
+	border-top: none;
+}
+.heji span{
+	display: inline-block;
+	margin-left: 40px;
+	width: 460px;
+	line-height: 40px;
+	color: rgba(37, 10, 10, 0.45);
+}
+.heji .zongji{
+	text-align: right;
+	color: red;
+}
